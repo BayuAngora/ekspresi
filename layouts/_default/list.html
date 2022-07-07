@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+<body>
+
+{{ partial "header.html" . }}
+<main class="main">
+
+<div class="title">
+<a href="{{ .Permalink }}">
+<div class="center">
+<h1>{{ .Title }}</h1>
+</div>
+</a>
+</div>
+{{ if eq .Section "blog" }}
+{{ range (.Paginate (.Pages).Reverse).Pages }}
+<article class="list">
+<a href="{{ .Permalink }}">
+<div class="list-header">
+<h2>{{ .Title }}</h2>
+</div>
+<div class="list-content">
+<h3>
+{{ .Summary | truncate 80 }}
+</h3>
+</div>
+</a>
+</article>
+{{ end }}
+{{ end }}
+{{ if eq .Section "poem" }}
+{{ range (.Paginate (.Pages)).Pages }}
+<article class="list">
+<a href="{{ .Permalink }}">
+<div class="list-header">
+<h2>{{ .Title }}</h2>
+</div>
+<div class="list-content">
+<h3>
+{{ .Summary | truncate 80 }}
+</h3>
+</div>
+</a>
+</article>
+{{ end }}
+{{ end }}
+{{ if eq .Section "quote" }}
+{{ range (.Paginate (.Pages).Reverse).Pages }}
+<article class="list">
+<a href="{{ .Permalink }}">
+<div class="list-header">
+<h2>{{ .Title }}</h2>
+</div>
+<div class="list-content">
+<blockquote>
+<h3>
+{{ .Summary | truncate 80 }}
+</h3>
+</blockquote>
+</div>
+</a>
+</article>
+{{ end }}
+{{ end }}
+<div class="center">
+<form method="get" action="https://google.com/search" target="_blank">
+<input class="search" type="hidden" name="q" value="site:angora.me">
+<input id="search" class="search" type="text" name="q" placeholder="{{ .Site.Params.Search }}">
+<label for="search" class="hollow">_</label>
+</form>
+</div>
+
+<div class="pagination">
+<a class="prev" href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL | absURL }}{{ else }}#{{ end }}">« Prev</a>
+<div id="mode" class="heartbeat">
+<div id="darkBtn"><img alt="{{ .Site.Title }}" src="{{ .Site.Params.Cdn }}/bayuangora.svg"></div>
+<div id="lightBtn" class="hidden"><img alt="{{ .Site.Title }}" src="{{ .Site.Params.Cdn }}/bayuangora.svg"></div>
+</div>
+<a class="next" href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL | absURL }}{{ else }}#{{ end }}">Next »</a>
+</div>
+
+</main>
+
+{{ partial "footer.html" . }}
+</body>
+
+</html>
