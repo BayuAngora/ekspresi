@@ -1,5 +1,5 @@
 title: EKSPRESI
-baseURL: https://ekspresi.pages.dev
+baseURL: /
 
 paginate: 6
 paginatePath: /
@@ -18,8 +18,8 @@ params:
   menu2: list
   menu3: event
   menu4: about
-  cdn: https://ekspresi.pages.dev
-  cover: https://ekspresi.pages.dev
+  cdn: /
+  cover: /
   search: Search?
   facebook: https://fb.com/ekspresi
   twitter: https://twitter.com/ekspresi
