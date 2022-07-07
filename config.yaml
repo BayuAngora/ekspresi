@@ -16,8 +16,7 @@ markup:
 params:
   menu1: art
   menu2: event
-  menu3: artist
-  menu4: about
+  menu3: about
   cdn: https://ekspresi.pages.dev
   cover: https://ekspresi.pages.dev
   search: Search?
