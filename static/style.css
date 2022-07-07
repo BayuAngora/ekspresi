@@ -77,10 +77,6 @@ display: none;
 .hollow {
 opacity: 0;
 }
-.profile {
-max-width: 80%;
-margin: 0 auto;
-}
 .menu, .menu a {
 max-width: 720px;
 padding: 0 10px;
