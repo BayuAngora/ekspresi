@@ -36,8 +36,8 @@ text-align: center;
 display: none;
 }
 .profile {
-max-width: 150px;
-margin: 16px auto;
+max-width: 200px;
+margin: -12px auto;
 border-radius: 50%;
 }
 .menu,
@@ -86,6 +86,7 @@ padding: 8px;
 margin: -12px auto 12px;
 text-align: center;
 transition: color 1s ease;
+display: none;
 }
 .source-icon {
 fill: #fff;
