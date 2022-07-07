@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+<body>
+
+{{ partial "header.html" . }}
+<main class="main">
+
+<div class="title">
+<a href="{{ .Parent.Permalink }}">
+<div class="center">
+<h2>{{ .Parent.Title | humanize }}</h2>
+</div>
+</a>
+</div>
+
+<div class="center">
+<img class="cover" alt="{{ .Title }}" src="{{ .Site.Params.Cover }}">
+</div>
+
+<article class="single">
+<div class="single-header">
+<h1>{{ .Title }}</h1>
+</div>
+<div class="single-content">
+{{ .Content }}
+</div>
+</article>
+
+<div class="center">
+<form method="get" action="https://google.com/search" target="_blank">
+<input class="search" type="hidden" name="q" value="site:angora.me">
+<input id="search" class="search" type="text" name="q" placeholder="{{ .Site.Params.Search }}">
+<label for="search" class="hollow">_</label>
+</form>
+</div>
+
+<div class="pagination">
+<a class="prev" href="{{ if .PrevPage }}{{ .PrevPage.Permalink }}{{ else }}#{{ end }}">« Prev</a>
+<div id="mode" class="heartbeat">
+<div id="darkBtn"><img alt="{{ .Site.Title }}" src="{{ .Site.Params.Cdn }}/ekspresi.png"></div>
+<div id="lightBtn" class="hidden"><img alt="{{ .Site.Title }}" src="{{ .Site.Params.Cdn }}/ekspresi.png"></div>
+</div>
+<a class="next" href="{{ if .NextPage }}{{ .NextPage.Permalink }}{{ else }}#{{ end }}">Next »</a>
+</div>
+
+</main>
+
+{{ partial "footer.html" . }}
+</body>
+
+</html>
