@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+<body>
+
+{{ partial "header.html" . }}
+<main class="main">
+
+<div class="title">
+<a href="{{ .Permalink }}">
+<div class="center">
+<h1>{{ .Title }}</h1>
+</div>
+</a>
+</div>
+
+<article class="single">
+<div class="single-content">
+{{ .Content }}
+</div>
+</article>
+
+<div class="center">
+<form method="get" action="https://google.com/search" target="_blank">
+<input class="search" type="hidden" name="q" value="site:angora.me">
+<input id="search" class="search" type="text" name="q" placeholder="{{ .Site.Params.Search }}">
+<label for="search" class="hollow">_</label>
+</form>
+</div>
+
+<div class="pagination">
+<div id="mode" class="heartbeat">
+<div id="darkBtn"><img alt="{{ .Site.Title }}" src="{{ .Site.Params.Cdn }}/ekspresi.svg"></div>
+<div id="lightBtn" class="hidden"><img alt="{{ .Site.Title }}" src="{{ .Site.Params.Cdn }}/ekspresi.svg"></div>
+</div>
+</div>
+
+</main>
+
+{{ partial "footer.html" . }}
+</body>
+
+</html>
