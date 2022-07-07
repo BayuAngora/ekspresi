@@ -1,0 +1,29 @@
+title: EKSPRESI
+baseURL: https://ekspresi.pages.dev
+
+paginate: 6
+paginatePath: /
+
+permalinks:
+  art: /:title/
+  event: /:title/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  menu1: art
+  menu2: event
+  cdn: https://ekspresi.pages.dev
+  cover: https://ekspresi.pages.dev
+  search: Search?
+  facebook: https://fb.com/ekspresi
+  twitter: https://twitter.com/ekspresi
+  instagram: https://instagram.com/ekspresi
+  copyright: • EKSPRESI (C) All Rights Reserved •
+  copyrightlink: https://s.id/copyrighted
+  description: Ekspresi Dalam Diri. Aktualisasi Lewat Seni.
+
+disableHugoGeneratorInject: true
