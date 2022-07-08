@@ -8,6 +8,9 @@ permalinks:
   art: /:filename/
   event: /:title/
 
+taxonomies:
+  tag: tag
+
 markup:
   goldmark:
     renderer:
