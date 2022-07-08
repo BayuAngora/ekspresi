@@ -1,5 +1,5 @@
 ---
 title: Event
-weight: 40
+weight: 30
 summary: Event by Ekspresi
 ---
