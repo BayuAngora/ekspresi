@@ -5,7 +5,7 @@ paginate: 6
 paginatePath: /
 
 permalinks:
-  art: /:filename/
+  art: /:title/
   event: /:title/
 
 taxonomies:
