@@ -20,7 +20,7 @@ params:
   menu1: art
   menu2: event
   menu3: contact
-  cdn: 
+  cdn: /
   cover: 
   search: Search?
   facebook: https://fb.com/ekspresi
