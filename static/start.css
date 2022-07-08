@@ -58,13 +58,6 @@ transition: color 1s ease;
 .menu a:hover {
 color: #e00;
 }
-.menu-icon {
-width: 32px;
-margin: auto;
-fill: #222;
-vertical-align: middle;
-transition: fill 1s ease;
-}
 .search {
 font-family: "font", sans-serif;
 font-size: 18px;
