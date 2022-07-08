@@ -1,8 +1,8 @@
 ---
-title: About
+title: Profile
 layout: page
-weight: 50
-permalink: /about/
+weight: 40
+permalink: /profile/
 summary: Ekspresi Dalam Diri. Aktualisasi Lewat Seni.
 ---
 
