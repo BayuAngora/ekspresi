@@ -8,4 +8,4 @@ tag: Adang Hutomi
 ## Terbelenggu  
 Acrylic on Canvas  
 90 x 70 cm  
-© Adang Hutomi  
+• [Adang Hutomi](/tag/adanghutomi/)
