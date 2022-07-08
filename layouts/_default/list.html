@@ -14,7 +14,6 @@
 </div>
 </a>
 </div>
-{{ if eq .Section "blog" }}
 {{ range (.Paginate (.Pages).Reverse).Pages }}
 <article class="list">
 <a href="{{ .Permalink }}">
@@ -23,46 +22,11 @@
 </div>
 <div class="list-content">
 <h3>
-{{ .Summary | truncate 80 }}
+{{ .Summary }}
 </h3>
 </div>
 </a>
 </article>
-{{ end }}
-{{ end }}
-{{ if eq .Section "poem" }}
-{{ range (.Paginate (.Pages)).Pages }}
-<article class="list">
-<a href="{{ .Permalink }}">
-<div class="list-header">
-<h2>{{ .Title }}</h2>
-</div>
-<div class="list-content">
-<h3>
-{{ .Summary | truncate 80 }}
-</h3>
-</div>
-</a>
-</article>
-{{ end }}
-{{ end }}
-{{ if eq .Section "quote" }}
-{{ range (.Paginate (.Pages).Reverse).Pages }}
-<article class="list">
-<a href="{{ .Permalink }}">
-<div class="list-header">
-<h2>{{ .Title }}</h2>
-</div>
-<div class="list-content">
-<blockquote>
-<h3>
-{{ .Summary | truncate 80 }}
-</h3>
-</blockquote>
-</div>
-</a>
-</article>
-{{ end }}
 {{ end }}
 <div class="center">
 <form method="get" action="https://google.com/search" target="_blank">
