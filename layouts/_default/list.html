@@ -17,13 +17,9 @@
 {{ range (.Paginate (.Pages).Reverse).Pages }}
 <article class="list">
 <a href="{{ .Permalink }}">
-<div class="list-header">
-<h2>{{ .Title }}</h2>
-</div>
 <div class="list-content">
-<h3>
-{{ .Summary }}
-</h3>
+{{ .Content }}
+<h2>{{ .Title }}</h2>
 </div>
 </a>
 </article>
