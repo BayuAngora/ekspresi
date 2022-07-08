@@ -4,7 +4,7 @@ artist: Irlan Sugih
 weight: 1002
 ---
 
-![](https://raw.githubusercontent.com/BayuAngora/gallery/main/irlan-sugih-for-the-sake-of-time.jpg)
+![](/irlan-sugih-for-the-sake-of-time.jpg)
 
 ## For The Sake Of Time  
 Mixed Media  
