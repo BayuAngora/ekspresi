@@ -1,10 +1,10 @@
 ---
-title: Sad
+title: Barong
 artist: Aep Nano
 weight: 1005
 ---
 
-![](https://raw.githubusercontent.com/BayuAngora/gallery/main/aep-nano-sad.jpg)
+![](/aep-nano-barong.jpg)
 
 ## Sad  
 Acrylic on Canvas  
