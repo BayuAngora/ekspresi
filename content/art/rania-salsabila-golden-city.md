@@ -4,7 +4,7 @@ artist: Rania Salsabila
 weight: 1003
 ---
 
-![](https://raw.githubusercontent.com/BayuAngora/gallery/main/rania-salsabila-golden-city.jpg)
+![](/rania-salsabila-golden-city.jpg)
 
 ## Golden City  
 Acrylic on Canvas  
