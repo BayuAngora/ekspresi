@@ -1,6 +1,7 @@
 ---
 title: Golden City
 artist: Rania Salsabila
+weight: 1003
 ---
 
 ![](https://raw.githubusercontent.com/BayuAngora/gallery/main/rania-salsabila-golden-city.jpg)
