@@ -16,14 +16,14 @@
 <meta name="msapplication-starturl" content="{{ .Site.BaseURL }}">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
-<meta name="image" content="{{ .Site.Params.Cdn }}/ekspresi.png">
+<meta name="image" content="{{ .Site.Params.Cdn }}ekspresi.png">
 <meta name="description" content="
 {{ .Site.Params.Description }}
 ">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ .Site.Title }}">
-<meta name="twitter:image" content="{{ .Site.Params.Cdn }}/ekspresi.png">
+<meta name="twitter:image" content="{{ .Site.Params.Cdn }}ekspresi.png">
 <meta name="twitter:description" content="
 {{ .Site.Params.Description }}
 ">
@@ -31,17 +31,17 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:title" content="{{ .Site.Title }}">
-<meta property="og:image" content="{{ .Site.Params.Cdn }}/ekspresi.png">
+<meta property="og:image" content="{{ .Site.Params.Cdn }}ekspresi.png">
 <meta property="og:description" content="
 {{ .Site.Params.Description }}
 ">
 
 <link rel="canonical" href="{{ .Permalink }}">
-<link rel="manifest" href="{{ .Site.BaseURL }}/manifest.json">
-<link rel="icon" type="image/x-icon" href="{{ .Site.Params.Cdn }}/favicon.png">
-<link rel="apple-touch-icon" href="{{ .Site.Params.Cdn }}/apple-touch-icon.png">
-<link rel="mask-icon" color="#e00" href="{{ .Site.Params.Cdn }}/safari-pinned-tab.svg">
-<link rel="stylesheet" type="text/css" media="all" href="{{ .Site.BaseURL }}/start.css">
+<link rel="manifest" href="{{ .Site.BaseURL }}manifest.json">
+<link rel="icon" type="image/x-icon" href="{{ .Site.Params.Cdn }}favicon.png">
+<link rel="apple-touch-icon" href="{{ .Site.Params.Cdn }}apple-touch-icon.png">
+<link rel="mask-icon" color="#e00" href="{{ .Site.Params.Cdn }}safari-pinned-tab.svg">
+<link rel="stylesheet" type="text/css" media="all" href="{{ .Site.BaseURL }}start.css">
 
 <script type="application/ld+json">
 {
@@ -49,7 +49,7 @@
 "@type" : "WebSite",
 "name" : "{{ .Site.Title }}",
 "url" : "{{ .Site.BaseURL }}",
-"image" : "{{ .Site.BaseURL }}/ekspresi.png",
+"image" : "{{ .Site.BaseURL }}ekspresi.png",
 "description" : "{{ .Site.Params.Description }}",
 "sameAs" : [
 "{{ .Site.Params.Facebook }}",
@@ -69,7 +69,7 @@
 
 <div>
 <a href="{{ .Site.BaseURL }}">
-<img class="profile" alt="{{ .Site.Title }}" src="{{ .Site.BaseURL }}/ekspresi.png">
+<img class="profile" alt="{{ .Site.Title }}" src="{{ .Site.BaseURL }}ekspresi.png">
 </a>
 </div>
 {{ with .Site.Params }}
@@ -122,7 +122,7 @@
 
 </main>
 
-<script defer src="{{ .Site.BaseURL }}/script.js"></script>
+<script defer src="{{ .Site.BaseURL }}script.js"></script>
 
 </body>
 
