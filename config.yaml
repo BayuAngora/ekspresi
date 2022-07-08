@@ -1,6 +1,6 @@
 title: EKSPRESI
 baseURL: /
-staticDir: media
+staticDir2: media
 
 paginate: 6
 paginatePath: /
