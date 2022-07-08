@@ -1,6 +1,7 @@
 ---
 title: For The Sake Of Time
 artist: Irlan Sugih
+weight: 1002
 ---
 
 ![](https://raw.githubusercontent.com/BayuAngora/gallery/main/irlan-sugih-for-the-sake-of-time.jpg)
