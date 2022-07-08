@@ -23,14 +23,6 @@
 </div>
 </article>
 
-<div class="center">
-<form method="get" action="https://google.com/search" target="_blank">
-<input class="search" type="hidden" name="q" value="site:angora.me">
-<input id="search" class="search" type="text" name="q" placeholder="{{ .Site.Params.Search }}">
-<label for="search" class="hollow">_</label>
-</form>
-</div>
-
 <div class="pagination">
 <a class="prev" href="{{ if .PrevPage }}{{ .PrevPage.Permalink }}{{ else }}#{{ end }}">« Prev</a>
 <a class="next" href="{{ if .NextPage }}{{ .NextPage.Permalink }}{{ else }}#{{ end }}">Next »</a>
