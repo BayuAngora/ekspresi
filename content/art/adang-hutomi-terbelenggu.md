@@ -1,6 +1,7 @@
 ---
 title: Terbelenggu
 artist: Adang Hutomi
+weight: 1001
 ---
 
 ![](https://raw.githubusercontent.com/BayuAngora/gallery/main/adang-hutomi-terbelenggu.jpg)
