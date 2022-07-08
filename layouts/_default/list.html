@@ -14,7 +14,7 @@
 </div>
 </a>
 </div>
-{{ range (.Paginate (.Pages).Reverse).Pages }}
+{{ range .Paginator.Pages }}
 <article class="list">
 <a href="{{ .Permalink }}">
 <div class="list-content">
