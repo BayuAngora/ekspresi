@@ -9,7 +9,7 @@ permalinks:
   event: /:title/
 
 taxonomies:
-  tag: tag
+  tag: artist
 
 markup:
   goldmark:
