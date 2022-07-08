@@ -6,7 +6,7 @@ weight: 1005
 
 ![](/aep-nano-barong.jpg)
 
-## Sad  
+## Barong  
 Acrylic on Canvas  
 90 x 70 cm  
 [Aep Nano](/artist/aep-nano/)
