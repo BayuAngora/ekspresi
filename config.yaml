@@ -5,8 +5,8 @@ paginate: 6
 paginatePath: /
 
 permalinks:
-  art: /:filename/
-  event: /:title/
+  art: /:section/:filename/
+  event: /:section/:title/
 
 taxonomies:
   tag: artist
