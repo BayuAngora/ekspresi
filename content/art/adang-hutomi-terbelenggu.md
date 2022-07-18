@@ -9,4 +9,4 @@ weight: 1001
 ## Terbelenggu  
 Acrylic on Canvas  
 90 x 70 cm  
-[Adang Hutomi](/art/artist/adang-hutomi/)
+[Adang Hutomi](/artist/adang-hutomi/)
