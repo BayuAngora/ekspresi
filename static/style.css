@@ -225,20 +225,8 @@ margin-left: auto;
 .pagination .next:hover {
 color: #e00;
 }
-.source, .source a {
-max-width: 720px;
-padding: 8px;
-margin: -12px auto 0;
-text-align: center;
-transition: color 1s ease;
-}
-.source-icon {
-fill: #fff;
-vertical-align: middle;
-transition: fill 1s ease;
-}
-.source-icon:hover {
-fill: #e00;
+.source {
+display: none;
 }
 .copyright,
 .copyright a {
