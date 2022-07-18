@@ -4,7 +4,7 @@ artist: KGABDBH
 weight: 1007
 ---
 
-![](/kgabdbh-agni.jpg)
+![](/art/kgabdbh-agni.jpg)
 
 ## Agni  
 Acrylic on Canvas  
