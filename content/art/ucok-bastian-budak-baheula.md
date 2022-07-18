@@ -4,7 +4,7 @@ artist: Ucok Bastian
 weight: 1004
 ---
 
-![](/ucok-bastian-budak-baheula.jpg)
+![](/art/ucok-bastian-budak-baheula.jpg)
 
 ## Budak Baheula  
 Acrylic on Canvas  
