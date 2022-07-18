@@ -4,7 +4,7 @@ artist: Tiara Suci
 weight: 1008
 ---
 
-![](/tiara-suci-sealing.jpg)
+![](/art/tiara-suci-sealing.jpg)
 
 ## Sealing  
 Acrylic on Canvas  
