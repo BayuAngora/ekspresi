@@ -8,4 +8,3 @@ weight: 2002
 ![](/event/sumedang-silih-wawangi_01.jpg)  
 ![](/event/sumedang-silih-wawangi_02.jpg)  
 ![](/event/sumedang-silih-wawangi_03.jpg)  
-![](/event/sumedang-silih-wawangi_04.jpg)  
