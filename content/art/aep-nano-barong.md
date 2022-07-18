@@ -4,9 +4,9 @@ artist: Aep Nano
 weight: 1005
 ---
 
-![](/aep-nano-barong.jpg)
+![](/art/aep-nano-barong.jpg)
 
 ## Barong  
 Acrylic on Canvas  
 90 x 70 cm  
-[Aep Nano](/artist/aep-nano/)
+[Aep Nano](/art/artist/aep-nano/)
