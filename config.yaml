@@ -19,7 +19,7 @@ markup:
 params:
   menu1: art
   menu2: event
-  menu3: contact
+  menu3: profile
   cdn: https://raw.githubusercontent.com/BayuAngora/media/main/ekspresi/art/
   cover: 
   search: Search?
