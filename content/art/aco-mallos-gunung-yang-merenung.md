@@ -1,7 +1,7 @@
 ---
 title: Gunung Yang Merenung
 artist: Aco Mallos
-weight: 1009
+weight: 1011
 ---
 
 ![](/art/aco-mallos-gunung-yang-merenung.jpg)
